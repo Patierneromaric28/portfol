@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination resgistration form</title>
+  <link rel="stylesheet" href="exams reg.css">
+</head>
+<body>
+    <form action="create">
+        <div class="main">
+            <div class="form-row">
+                <h1>Examination resgistration Form</h1>
+            </div>
+           
+            <div class="names">
+                <h2 class="info">Student Names</h2>
+                <input type="text" id="fname" class="input-field" placeholder="First Name" required>
+                <input type="text" id="lname-label" class="input-field" placeholder="Last Name" required>
+            </div>
+
+            <div class="names">
+                <h2 class="address">Sudent Address</h2>
+                <input type="text" id="fname" class="input-field" placeholder="Email address" required>
+                <input type="text" id="lname-label" class="input-field" placeholder="Tell." required>
+            </div>
+
+            
+            <h2 class="skull">Institution & Subjects</h2>
+            <div class="Learn">
+              
+                <input list="student-subjects" id="student-subjects-label" name="student-subjects" placeholder="Subjects" required>
+                <datalist id="student-subjects">
+                    <option value="English language">
+                    <option value="French">
+                    <option value="Mathematics">
+                    <option value="Biology">
+                    <option value="Physics">
+                    <option value="Chemistry">
+                    <option value="History">
+                    <option value="Geography">
+                    <option value="Economics">
+                    <option value="Computer science">
+                    </option>
+                </datalist>
+                
+                <input list="student-institution" id="student-institution-label" class="input-field" placeholder="School" required>
+                <datalist id="student-institution">
+                    <option value="SMASA">
+                    <option value="CCAST">
+                    <option value="GBHS Bayelle">
+                    <option value="GBHS Bamenda">
+                    <option value="PCHS Mankon">
+                    <option value="PSS Mankon">
+                    <option value="GBHS Guoache">
+                    <option value="GBHS Baffoussam">
+                    <option value="SAHECO">
+                    <option value="Saker Baptist College">
+                    <option value="CBC Nkwen">
+                    <option value="Our lourdes college Mankon">
+                    </option>
+                </datalist>
+            </div>
+            <div class="student">
+                <div class="gender"><br>
+                    <h3>Gender:</h3>
+                    <p>
+                        <input type="radio" id="Male" name="gender" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </p>
+                </div>
+                <div class="ades">
+                     <input type="text" id="address-label" name="address" class="input-field" placeholder="Address" required>
+                </div>
+            </div>
+
+                <div class="date">
+                    <div class="dat">
+                        <img src="/image/4X4 photos.jfif" alt="">
+                    </div>
+                    <div class="ate">
+                        <div>
+                            <label for="reg-date">Registration Date</label>
+                        </div>
+                        <div>
+                            <input type="date" id="date" name="date" class="input-field" required>
+                        </div>
+                    </div>
+                </div>
+            <div class="time-used">     
+            </div>
+            <div class="btn">
+                <button type="submit">submit</button>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

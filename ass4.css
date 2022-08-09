@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    background-image: url(/image/wallpapeper\ new.jpg);
+    background-size: cover;
+    
+}
+.form-row{
+    padding-left: 22px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+form{
+    width: 30vw;
+    margin-top: 120px;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    border: 3px solid greenyellow;
+    width : 400px;
+    padding: 40px;
+    border-radius: 55px;
+    background-color: white;
+}
+h1{
+    text-transform: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(105, 228, 24);
+    border-radius: 50px;
+    
+}
+button{
+    border: 25px;
+    margin: 15px;
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: rgb(18, 241, 18);
+    font-size: x-large;
+    font-weight: 800px;
+    border-radius: 40px;
+}
+.submit{
+    color: orange;
+}
+input{
+    margin: 4px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border:1px solid  rgb(105, 228, 24);
+    height: 25px;
+    text-align: left;
+    border-right: 0px;
+    background-color: transparent;
+}
+   
+.icon{
+    background-color: transparent;
+    height: 22px;
+    width: 20px; 
+    color: rgb(21, 255, 0);
+    margin-left: -9px;
+    margin-top: -30px;
+    margin-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 1px;
+    background-color: transparent;
+    border: 1px solid  rgb(105, 228, 24);
+    border-left: 0px;
+    
+}
+
+a{
+    color:  rgb(105, 228, 24);
+}

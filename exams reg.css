@@ -1,0 +1,83 @@
+body{
+    margin: 14px;
+    background-color: white;
+}
+
+form{
+    text-align: center;
+    border: 2px solid black;
+    margin: 18px 18px;
+    padding: 22px 22px;
+    width: 800px;
+    margin-left: 240px;
+    
+}
+
+h1{
+    color: #fff;
+    background-color: black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+input{
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 18px;
+
+}
+
+.skull{
+    margin-right: 270px;
+}
+
+.address{
+    margin-right: 340px;
+}
+.info{
+    margin-right: 340px;
+    
+}
+
+.dat img{
+    height: 8vw;
+    width: 8vw;
+}
+
+.ate{
+    margin-top: 20px;
+}
+
+.dat{
+    margin-right: 100px;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.student{
+    display: flex;
+    justify-content: center;
+}
+
+.student .ades {
+    margin-top: 50px;
+   
+}
+
+.student .ades{
+    padding:14px 14px; 
+}
+
+.btn button{
+    background-color: transparent;
+    font-size: 20px;
+    height: 2vw;
+    width: 8vw;
+    border-radius: 6px;
+}

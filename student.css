@@ -1,0 +1,77 @@
+body{
+    background-color: white;
+    text-align: center;
+}
+form{
+    border: 2.2px solid black;
+    width: 42rem;
+    height: 42rem;
+    margin-left: 340px;
+    margin-right: 35px;
+    
+}
+.main{
+   margin-right: 230px;
+    
+}
+h1{
+    text-align: center;
+    height: 2rem;
+    width: 40rem;
+    margin-left: 14px;
+    margin-right: 14px ;
+    background: black;
+    border: 1.6px solid black;
+    color: white;
+    font-size: x-large;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 75px;
+}
+.names h2{
+  margin: right 45px;
+  padding-right: 200px;
+
+}
+ .date h3{
+    margin-right: 200px;
+}
+.date input{
+    margin: 21px;
+    width: 80px;
+}
+.address h3 {
+    margin-right: 240px;
+}
+ .address input{
+    margin-right: 180px;
+}
+.tel h3{
+    margin-right: 240px;
+}
+.tel input{
+    margin-right: 180px;
+}
+.gender h3{
+    margin-right: 290px;
+}
+.gender p{
+       margin-right: 160px; 
+}
+.form-row input{
+margin: 21px;
+width: 80px;
+}
+.form-row{
+    margin-right: 9px;
+}
+.btn button{
+    margin-left: 230px;
+    margin-top: 8px;
+    height: 30px;
+    width: 98px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: large;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student resgistration form</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <form action="create">
+        <div class="main">
+            <div class="form-row">
+                <h1>Application Form</h1>
+                <label for="date" id="date-label"></label>
+                <input type="integer" id="month" size="6" pattern="[a-zA-Z]" class="input-field"  placeholder="Month" maxlength="2" required>
+                <input type="integer" id="day" size="6" pattern="[a-zA-Z]" class="input-field"  placeholder="Day" maxlength="2" required>
+                <input type="integer" id="year" size="6" pattern="[a-zA-Z]" class="input-field"  placeholder="Year" maxlength="4" required>
+            </div>
+            <div class="names">
+                <h2 class="info">Student Names</h2>
+                <input type="text" id="fname" class="input-field" placeholder="First Name" required>
+                <input type="text" id="lname-label" class="input-field" placeholder="Last Name" required>
+            </div>
+            <div class="date">
+                <h3>Student date of birth</h3>
+                <label for="date" id="date-label"></label>
+                <input type="integer" id="month" class="input-field" placeholder="Month" size="6" pattern="[month]" maxlength="2   " required>
+                <input type="integer" id="day" class="input-field" placeholder="Day" size="6" pattern="[day]" maxlength="2" required>
+                <input type="integer" id="yaer" class="input-field" placeholder="Year" size="6" pattern="[year]" maxlength="4" required>
+            </div>
+            <div class="address">
+                 <h3>Email Address</h3>
+                <input type="text" id="email" class="input-field" placeholder="Email Address" required>
+            </div>
+            <div class="tel">
+                <h3>Phone Number</h3>
+                <input type="number" id="number" class="input-field" placeholder="Tel.">
+            </div>
+            <div class="gender"><br>
+                <h3>Gender:</h3>
+                <p>
+                    <input type="radio" id="Male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </p>
+            </div>
+            <div class="btn">
+                <button type="submit">submit</button>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
