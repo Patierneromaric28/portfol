@@ -248,6 +248,18 @@ address{
     
 }
 
+/*mobile responsiveness: */
+@media(max-width: 600px){
+    html{
+        font-size: 14px;
+    }
+#nav{
+    margin: -6px;
+    text-align: right;
+    margin-left: 18vw;
+}
+}  
+
 
 
 
